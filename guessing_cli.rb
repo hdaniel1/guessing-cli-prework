@@ -12,6 +12,5 @@ loop do
   elsif response.to_i != computer
     puts "The computer guessed #{computer}"
   end
-  #return "This is the #{response} and #{computer}."
 end
 end
