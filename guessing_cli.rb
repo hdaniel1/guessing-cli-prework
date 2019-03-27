@@ -10,7 +10,7 @@ loop do
   elsif response.to_i == computer
     puts "You guessed the correct number!"
   elsif response.to_i != computer
-    puts "The computer guessed #{computer}"
+    puts "The computer guessed #{computer}."
   end
 end
 end
